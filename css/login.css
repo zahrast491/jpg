@@ -1,0 +1,84 @@
+.login-container{
+    background: radial-gradient(circle farthest-corner at 10% 20% , rgba(90,92,106,1) 0% ,rgba(32,45,58,1) 81.3%) ;
+    height: 100vh;
+    padding: 40px;
+}
+
+.login-box{
+    font-size: .8em;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,.2);
+    border-radius: 15px;
+    background-color: rgba(255,255,255,.1);
+    color: white;
+    padding: 20px 35px;
+    margin:  20px 35px;
+}
+
+/* .login-box form{
+
+} */
+
+.login-box form .input-group{
+    margin: 30px;
+}
+
+.login-box form .input-group label{
+    display: block;
+}
+
+.login-box form .input-group input{
+    border: none;
+    background: none;
+    border-radius: 25px;
+    width: 100%;
+    outline: none;
+    color: white;
+    border: 2px solid white;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+/* .login-box form .do-you-have{
+
+} */
+
+.login-box form .submit-btn-container{
+    text-align: center;
+}
+
+.login-box form .submit-btn-container input{
+    border-radius: 15px;
+    background-color: #eb4d4b;
+    padding: 10px 40px;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.login-box .social-auth{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 2px solid rgba(255,255,255,.8);
+}
+
+
+.login-box .social-auth a{
+    color: white;
+    font-size: 1.9em;
+}
+
+/* .login-box .social-auth a i{
+
+} */
+
+/* .login-img-container{
+
+} */
+
+.login-img-container img{
+    width: 100%;
+}
